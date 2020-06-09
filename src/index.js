@@ -3,9 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import MediaCard from './MediaCard';
+import Gate from './Gate';
 
 ReactDOM.render(
-  <div><App name = "Omar Mirza" age ={25}/></div>,
+  <div>
+    <App name = "Omar Mirza" age ={25}/>
+    <MediaCard/>
+    <Gate isOpen = {true}/>
+    </div>,
   document.getElementById('root')
 );
 

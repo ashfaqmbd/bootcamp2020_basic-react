@@ -4,14 +4,14 @@ import Hello from './Hello';
 
 function App({name, age}) {
   return <div>   
-            Hello from App.js Updated <strong>{name}</strong> Age = {age - 5}
+            Hello from App.js Updated <strong>{name}</strong> Age = {age - 4}
             <br/>
             <Hello firstName = {name}></Hello>
             <h1>Hobbies</h1>
             <ul>
-            <li>Basketball</li>
-            <li>Movies</li>
-            <li>Coding</li>
+            <li><span>Basketball</span></li>
+            <li><span>Movies</span></li>
+            <li><span>Coding</span></li>
             </ul>
         </div>
 }
