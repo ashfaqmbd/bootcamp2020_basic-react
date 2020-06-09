@@ -12,7 +12,6 @@ function App({name, age}) {
             <li><span>Basketball</span></li>
             <li><span>Movies</span></li>
             <li><span>Coding</span></li>
-            <li><span>Fucking Danyah, my wife</span></li>
             </ul>
         </div>
 }
