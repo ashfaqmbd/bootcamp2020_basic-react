@@ -2,9 +2,9 @@ import React from 'react';
 
 function Gate(isOpen) {
     if (isOpen) {
-        return <a>open</a>            
+        return <p>open</p>            
     } else {
-        return <a>closed</a>
+        return <p>closed</p>
     }
 }
 
